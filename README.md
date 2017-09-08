@@ -21,7 +21,7 @@ app = Flask(__name__)
 ```python
 @app.route('/')
 def index():
-  return '<h1>Hello World</h1>
+  return '<h1>Hello World</h1>'
 ```
 
 - Example to determine one route:
